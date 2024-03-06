@@ -31,7 +31,7 @@ function playerName() {
     document.getElementById("player2-wins").textContent = "Player 2 Wins:";
     document.getElementById("Player2").textContent = "Player 2";
   } else {
-    document.getElementById("player2-wins").textContent = player1 + " Wins:";
+    document.getElementById("player2-wins").textContent = player2 + " Wins:";
     document.getElementById("Player2").textContent = player2;
   }
 
